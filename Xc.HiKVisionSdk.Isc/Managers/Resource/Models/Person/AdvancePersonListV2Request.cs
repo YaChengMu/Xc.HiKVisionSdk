@@ -26,7 +26,7 @@ namespace Xc.HiKVisionSdk.Isc.Managers.Resource.Models.Person
         /// 2：女
         /// 0：未知
         /// </summary>
-        public Gender Gender { get; set; }
+        public Gender? Gender { get; set; }
         /// <summary>
         ///  	所属组织唯一标识码集合
         ///  	多个值使用英文逗号分隔，不超过1000个
@@ -43,7 +43,7 @@ namespace Xc.HiKVisionSdk.Isc.Managers.Resource.Models.Person
         ///  	990:其他
         ///  	平台上人员信息实名标识选择为身份证件时必填
         /// </summary>
-        public int CertificateType { get; set; }
+        public int? CertificateType { get; set; }
         /// <summary>
         /// 证件号码(最大长度64)
         /// </summary>
